@@ -1,7 +1,7 @@
 package com.devkng.crud.entity;
 
 import jakarta.persistence.*;
-
+@Entity
 @Table(name = "customer")
 public class Customer {
 
@@ -27,6 +27,10 @@ public class Customer {
         this.customeraddress = customeraddress;
         this.mobile = mobile;
     }
+
+    public Customer(String customerName, String customeraddress, int mobile) {
+    }
+
     public int getCustomerId() {
         return customerId;
     }

@@ -1,2 +1,4 @@
-package com.devkng.crud.DTO;public class CustomerUpdateDTO {
+package com.devkng.crud.DTO;
+
+public class CustomerUpdateDTO {
 }
